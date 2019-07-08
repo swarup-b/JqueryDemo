@@ -1,0 +1,43 @@
+.container{
+	    margin-left: 200;
+		margin-top: 100;
+		margin-right: 200;
+		margin-bottom: 100;
+		
+}
+.first-div{
+	     width:50%;
+	     display:inline-block;
+	     background-color: aliceblue;
+}
+.second-div{
+	     width:50%;
+         display:inline-block;
+	     float:right;
+}
+table, tr,th,td {
+		 border: 1px solid black;
+		 margin-left: 98px;
+}
+span{
+	     color: red;
+}
+
+
+label {
+		margin-left: 90px;
+		font-size: 18px;
+		color: #333;
+		height: 20px;
+		width: 100;
+		margin-top: 10px;
+		float: left;
+}
+.input-data{
+	    height: 20px;
+		border: 1px solid #000;
+		margin-top: 10px;
+}
+button{
+	    margin-left: 220;
+}

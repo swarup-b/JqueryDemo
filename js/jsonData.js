@@ -1,0 +1,2 @@
+var state={"India":['odisha','UP'],"China":['Beijing','Tianjin'],"USA":['Delaware','New Jersey']}
+var districts={"odisha":['khordha','kendrapada','jajpur'],"UP":['Allahabad','Moradabad'],"Beijing":['gdv','dfgd'],"Tianjin":['hrh','gdhga'],"Delaware":['ahgdsfs','bdvgh'],"New Jersey":['gcxgd','vcggsg']}

@@ -1,0 +1,69 @@
+ <!DOCTYPE>
+ <html>
+		<head>
+		<title>Demo</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/validation.js"></script> 
+		<script src="js/jsonData.js"></script> 
+		<!-- <script src="js/jscolor.js"></script> -->
+		<!-- <script src="js/color.js"></script> -->
+		<script src="js/update.js"></script> 
+		</head>
+		<body>
+			
+		<div class="container">
+			
+				<div class="sub-div">
+						<div class="first-div" style="width:50%" id="fb">
+						      <form onsubmit="return  validateFormOnSubmit()" id="f1">
+								<div class="text-box"> <label>Name:</label><input type="text" id="name" class="input-data" required/> <span id="nameSpan"></span> </div><br/>
+								<div class="text-box"> <label>Email:</label><input type="email" id="email" class="input-data" required/><span id="emailSpan"></span> </div><br/>
+								<div class="text-box"> <label>Password:</label><input type="password" id="password" class="input-data" required/><span id="passSpan"></span> </div><br/>
+								<div> <label>Gender:</label><input type="radio" id="gender" value="male" class="input-data" name="gndr" required>Male
+										<input type="radio"  id="gender"value="female" class="input-data" name="gndr" required >Female
+										 <span id="genderSpan"></span></div><br>
+								<div> <label>Language Know:</label><input type="checkbox" name="lang" value="Hindi" class="input-data">Hindi
+														  <input type="checkbox" name="lang" value="English" class="input-data">English
+														  <input type="checkbox" name="lang" value="Odia" class="input-data">Odia <span id="langSpan"></span></div><br/>
+								<div><label>Select Country:</label><select class="input-data" id="country">
+									<option>Select</option>
+									<option value="India">India</option>
+									<option value="China">China</option>
+									<option value="USA">USA</option>
+								</select><span id="countrySpan"></span></div><br/>
+								<div id="state"><label>State:</label><select id='sel' class="input-data"><option>Select</option></select><span id="stateSpan"></span></div><br>
+								<div id="districtsval"><label>District:</label><select id='sel1' class="input-data"><option>Select</option></select><span id="distSpan"></span></div>
+								<br><div><label>Address:</label><textarea rows=5px; col=10px; class="input-data" id="addrs"></textarea><span id="addSpan"></span></div><br/>
+								<div id="subBtn"><button  id="btn" >Submit</button>
+								<input type="reset" value="Reset"></div>
+								<div id="hideBtn" style="display:none;"><button  id="updateBtn">Update</button></div>
+							
+							  </form>
+						</div>
+						
+						<div class="second-div">
+						   <!-- Table creation for storing  form data -->
+							  <table id="table">				
+								<tr>
+									<th>Name</th>
+									<th>Email</th>
+									<th>Password</th>
+									<th>Gender</th>
+									<th>Language</th>
+									<th>Country</th>
+									<th>Address</th>
+									<th>Edit/Delete</th>
+									
+								</tr>
+							</table>
+						</div>
+				</div>
+				<!-- Color: <input class="jscolor" value="ab2567" onchange="changeBackground()" id="color"> -->
+								
+		</div>
+		
+		
+		</body>
+ 
+ </html>
